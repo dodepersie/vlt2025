@@ -1,0 +1,58 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS";
+  background: #ffc8fd;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  user-select: none;
+}
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-img {
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button,
+.yes-button {
+  background: red;
+}
+
+button,
+.no-button {
+  background: blue;
+}
